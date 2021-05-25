@@ -16,7 +16,8 @@ La documentación oficial esta Oauth2  en los siguientes enlaces:
 
 El escenario que se esta implementando el es el siguiente:
 
-![](img1.png)
+![](images/img1.png)
+
 [Tomado de https://docs.microsoft.com/es-es/azure/active-directory/fundamentals/auth-oauth2 (2021-05-25)](https://docs.microsoft.com/es-es/azure/active-directory/fundamentals/auth-oauth2)
 
 ## Ejemplo de un scrip del lado del cliente de autenticación
@@ -126,11 +127,17 @@ Este codigo contiene la funcionalidad basica para lograr la autenticación basic
 
 Despues de crear la aplicacion de autenticacion debe crear una aplicacion dentro del azure ad los pasos para crearla son los siguientes:
 
-Simplemente abra https://aad.portal.azure.com o https://portal.azure.com y abra "Azure Active Directory" allí.  
+-Simplemente abra https://aad.portal.azure.com o https://portal.azure.com y abra "Azure Active Directory" allí.  
 
--Desde el menú de la izquierda en la sección Administrar, abra "Registros de aplicaciones".  
 
-A continuación, haga clic en "+ Nuevo registro" en la parte superior de la vista que acaba de abrir.  
+![](images/portal.png)
+
+-Desde el menú de la izquierda en la sección Administrar, abra "App registrations".
+
+![](images/appreg.png)
+
+A continuación, haga clic en "+ New Registration" en la parte superior de la vista que acaba de abrir.  
+
 
 Ahora puede ingresar el nombre de su aplicación y seleccionar su aplicación Single tenant o Multitenant. Y esta selección, por supuesto, depende de qué tan públicamente quiera compartir esta aplicación. Si no está seguro, seleccione Inquilino único para estar seguro. Puede cambiar esto más tarde si es necesario desde la página "Autenticación". Lo más importante en esta vista es proporcionar el URI de redireccionamiento a su página de autenticación (la página que contiene mi código de ejemplo). Esto debe protegerse con HTTPS, así que ni siquiera se moleste en intentarlo solo con http: //, ya que no funcionará. Sin embargo, esta URL no necesita estar disponible públicamente, ya que su navegador accede a ella, no el propio Azure, por lo que incluso localhost funcionará siempre que tenga una conexión https: //.
 
