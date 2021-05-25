@@ -138,12 +138,6 @@ Dado que ahora ha creado el registro de la aplicación y se encuentra en la pág
 
 ¡Y ahora estás casi listo! Solo queda una última cosa por hacer, que es crear el "secreto del cliente" para su aplicación registrada. Haga clic en "Certificados y secretos" en el menú de la izquierda y en la página que se abre, haga clic en el botón "+ Nuevo secreto de cliente". Ahora puede dar una descripción si lo desea, pero lo principal aquí es seleccionar cuánto tiempo es válido su secreto. Una vez que haya seleccionado, simplemente haga clic en el botón "Agregar" y ahí lo tiene. Tenga en cuenta que Azure no le mostrará el secreto después, por lo que debe copiarlo ahora en un lugar seguro o crear uno nuevo si lo perdió.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## Licencia
 
 No hay licencia para este código, ya que se ha pensado solo como ejemplo. Siéntase libre de utilizarlo como desee, incluso comercialmente, pero recuerde que no me hago responsable de este código, lo que significa que debe usarlo bajo su propio riesgo.
