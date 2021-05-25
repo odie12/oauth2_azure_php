@@ -114,7 +114,20 @@ echo "\n<a href=\"" . $redirect_uri . "\">Click here to redo the authentication<
 
 Este codigo contiene la funcionalidad basica para lograr la autenticación basica usando oauth2, para usarlo en producción se deben eliminar los mensajes de comentario.
 
-HOLA SOY UN MENSAJE DE PRUEBA
+## Crear una aplicación en el Azure ad (traduccion automatica)
+
+Despues de crear la aplicacion de autenticacion debe crear una aplicacion dentro del azure ad los pasos para crearla son los siguientes:
+
+Simplemente abra https://aad.portal.azure.com o https://portal.azure.com y abra "Azure Active Directory" allí.  
+
+Desde el menú de la izquierda en la sección Administrar, abra "Registros de aplicaciones".
+A continuación, haga clic en "+ Nuevo registro" en la parte superior de la vista que acaba de abrir.  
+
+Ahora puede ingresar el nombre de su aplicación y seleccionar su aplicación Single tenant o Multitenant. Y esta selección, por supuesto, depende de qué tan públicamente quiera compartir esta aplicación. Si no está seguro, seleccione Inquilino único para estar seguro. Puede cambiar esto más tarde si es necesario desde la página "Autenticación". Lo más importante en esta vista es proporcionar el URI de redireccionamiento a su página de autenticación (la página que contiene mi código de ejemplo). Esto debe protegerse con HTTPS, así que ni siquiera se moleste en intentarlo solo con http: //, ya que no funcionará. Sin embargo, esta URL no necesita estar disponible públicamente, ya que su navegador accede a ella, no el propio Azure, por lo que incluso localhost funcionará siempre que tenga una conexión https: //.
+
+Dado que ahora ha creado el registro de la aplicación y se encuentra en la página "Descripción general", copie su ID de aplicación (cliente) y su ID de directorio (inquilino), ya que los necesitará con mi código de ejemplo.
+
+¡Y ahora estás casi listo! Solo queda una última cosa por hacer, que es crear el "secreto del cliente" para su aplicación registrada. Haga clic en "Certificados y secretos" en el menú de la izquierda y en la página que se abre, haga clic en el botón "+ Nuevo secreto de cliente". Ahora puede dar una descripción si lo desea, pero lo principal aquí es seleccionar cuánto tiempo es válido su secreto. Una vez que haya seleccionado, simplemente haga clic en el botón "Agregar" y ahí lo tiene. Tenga en cuenta que Azure no le mostrará el secreto después, por lo que debe copiarlo ahora en un lugar seguro o crear uno nuevo si lo perdió.
 
 ## Contributing
 
