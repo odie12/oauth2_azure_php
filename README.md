@@ -114,7 +114,6 @@ echo "\n<a href=\"" . $redirect_uri . "\">Click here to redo the authentication<
 
 Este codigo contiene la funcionalidad basica para lograr la autenticación basica usando oauth2, para usarlo en producción se deben eliminar los mensajes de comentario.
 
-hola
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
