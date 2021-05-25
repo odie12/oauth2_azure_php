@@ -142,3 +142,5 @@ Please make sure to update tests as appropriate.
 ## Licencia
 
 No hay licencia para este código, ya que se ha pensado solo como ejemplo. Siéntase libre de utilizarlo como desee, incluso comercialmente, pero recuerde que no me hago responsable de este código, lo que significa que debe usarlo bajo su propio riesgo.
+
+Esta publicación no tiene relación con mi actividad laboral es una actividad personal.
