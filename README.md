@@ -9,7 +9,7 @@ La documentación oficial esta Oauth2  en los siguientes enlaces:
 [https://docs.microsoft.com/es-es/graph/permissions-reference](https://docs.microsoft.com/es-es/graph/permissions-reference)  
 [https://developer.microsoft.com/es-es/graph/graph-explorer](https://developer.microsoft.com/es-es/graph/graph-explorer)  
 [https://docs.microsoft.com/es-es/rest/api/azure/](https://docs.microsoft.com/es-es/rest/api/azure/)  
-[https://code.visualstudio.com/#alt-downloads)](https://code.visualstudio.com/#alt-downloads)  
+[https://code.visualstudio.com/#alt-downloads](https://code.visualstudio.com/#alt-downloads)  
 
 ## Ejemplo de un scrip del lado del cliente de autenticación
 
@@ -120,7 +120,7 @@ Despues de crear la aplicacion de autenticacion debe crear una aplicacion dentro
 
 Simplemente abra https://aad.portal.azure.com o https://portal.azure.com y abra "Azure Active Directory" allí.  
 
-Desde el menú de la izquierda en la sección Administrar, abra "Registros de aplicaciones".
+-Desde el menú de la izquierda en la sección Administrar, abra "Registros de aplicaciones".
 A continuación, haga clic en "+ Nuevo registro" en la parte superior de la vista que acaba de abrir.  
 
 Ahora puede ingresar el nombre de su aplicación y seleccionar su aplicación Single tenant o Multitenant. Y esta selección, por supuesto, depende de qué tan públicamente quiera compartir esta aplicación. Si no está seguro, seleccione Inquilino único para estar seguro. Puede cambiar esto más tarde si es necesario desde la página "Autenticación". Lo más importante en esta vista es proporcionar el URI de redireccionamiento a su página de autenticación (la página que contiene mi código de ejemplo). Esto debe protegerse con HTTPS, así que ni siquiera se moleste en intentarlo solo con http: //, ya que no funcionará. Sin embargo, esta URL no necesita estar disponible públicamente, ya que su navegador accede a ella, no el propio Azure, por lo que incluso localhost funcionará siempre que tenga una conexión https: //.
