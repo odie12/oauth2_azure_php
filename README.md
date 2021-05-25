@@ -140,14 +140,25 @@ A continuación, haga clic en "+ New Registration" en la parte superior de la vi
 
 ![](images/appreg2.png)
 
-Ahora puede ingresar el nombre de su aplicación y seleccionar su aplicación Single tenant o Multitenant. Y esta selección, por supuesto, depende de qué tan públicamente quiera compartir esta aplicación. Si no está seguro, seleccione Inquilino único para estar seguro. Puede cambiar esto más tarde si es necesario desde la página "Autenticación". Lo más importante en esta vista es proporcionar el URI de redireccionamiento a su página de autenticación (la página que contiene mi código de ejemplo). Esto debe protegerse con HTTPS, así que ni siquiera se moleste en intentarlo solo con http: //, ya que no funcionará. Sin embargo, esta URL no necesita estar disponible públicamente, ya que su navegador accede a ella, no el propio Azure, por lo que incluso localhost funcionará siempre que tenga una conexión https: //.
+Ahora puede ingresar el nombre de su aplicación y seleccionar su aplicación "Single tenant" o "Multitenant". Y esta selección, por supuesto, quienes sera los usuarios de la aplicación. Si no está seguro, seleccione "Single tenant". Puede cambiar esto más tarde si es necesario desde la página "Authentication". Lo más importante en esta vista es proporcionar el URI de redireccionamiento a su página de autenticación (la página que contiene mi código de ejemplo). La pagina debe usar HTTPS, así que no se moleste en intentarlo con http://, ya que no va a funcionar. Esta URL no debe ser publica ya que solo debe ser accesible por su navegador, por lo que incluso localhost funcionará siempre que tenga una conexión https://.
 
-Dado que ahora ha creado el registro de la aplicación y se encuentra en la página "Descripción general", copie su ID de aplicación (cliente) y su ID de directorio (inquilino), ya que los necesitará con mi código de ejemplo.
+Dado que ahora ha creado el registro de la aplicación y se encuentra en la página "Descripción general", copie su "Application (client) ID" y su "Directory (tenant) ID", ya que los necesitará en el código del ejemplo.
 
-¡Y ahora estás casi listo! Solo queda una última cosa por hacer, que es crear el "secreto del cliente" para su aplicación registrada. Haga clic en "Certificados y secretos" en el menú de la izquierda y en la página que se abre, haga clic en el botón "+ Nuevo secreto de cliente". Ahora puede dar una descripción si lo desea, pero lo principal aquí es seleccionar cuánto tiempo es válido su secreto. Una vez que haya seleccionado, simplemente haga clic en el botón "Agregar" y ahí lo tiene. Tenga en cuenta que Azure no le mostrará el secreto después, por lo que debe copiarlo ahora en un lugar seguro o crear uno nuevo si lo perdió.
+![](images/appreg3.png)
+
+
+¡Y ahora estás casi listo! Solo queda una última cosa por hacer, que es crear el "Client secrets" para su aplicación registrada. Haga clic en "Certificates & secrets" en el menú de la izquierda y en la página que se abre, haga clic en el botón "+ New client secret". Ahora escribir descripción, pero lo mas importante es seleccionar cuánto tiempo es válido el secreto. Una vez que haya seleccionado, simplemente haga clic en el botón "Add" y ahí lo tiene. 
+
+![](images/appreg4.png)
+
+
+Tenga en cuenta que Azure no le mostrará el secreto después, por lo que debe copiarlo ahora en un lugar seguro o crear uno nuevo si lo perdió.
+
+![](images/appreg5.png)
+
 
 ## Licencia
 
-No hay licencia para este código, ya que se ha pensado solo como ejemplo. Siéntase libre de utilizarlo como desee, incluso comercialmente, pero recuerde que no me hago responsable de este código, lo que significa que debe usarlo bajo su propio riesgo.
+No hay licencia para este código, ya que esta pensado solo como ejemplo. Siéntase libre de utilizarlo como desee, incluso comercialmente, pero recuerde que no me hago responsable de este código, lo que significa que debe usarlo bajo su propio riesgo.
 
-Esta publicación no tiene relación con mi actividad laboral es una actividad personal.
+Esta publicación no tiene relación con mi actividad laboral, es una actividad personal, por lo tanto mi empleador no tiene ninguna responsabilidad sobre este codigo.
