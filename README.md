@@ -12,8 +12,9 @@ La documentación oficial esta Oauth2  en los siguientes enlaces:
 [https://code.visualstudio.com/#alt-downloads](https://code.visualstudio.com/#alt-downloads)  
 
 El escenario que se esta implementando el es el siguiente:
-  
+
 ![](2021-05-25-14-41-05.png)
+[Tomado de https://docs.microsoft.com/es-es/azure/active-directory/fundamentals/auth-oauth2 (2021-05-25)](https://docs.microsoft.com/es-es/azure/active-directory/fundamentals/auth-oauth2)
 ## Ejemplo de un scrip del lado del cliente de autenticación
 
 ``` php
