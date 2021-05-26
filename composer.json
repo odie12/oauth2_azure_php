@@ -5,7 +5,7 @@
     "authors": [
         {
             "name": "Andres Holguin",
-            "email": "odie12@gmail.com",
+            "email": "odie12@gmail.com"
         }
     ],
     "keywords": [
@@ -21,7 +21,7 @@
         "sso"
     ],
     "require": {
-        "php": "^5.6|^7.0|^8.0",
+        "php": "^5.6|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
