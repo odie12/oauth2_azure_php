@@ -151,7 +151,6 @@ Dado que ahora ha creado el registro de la aplicación y se encuentra en la pág
 
 ![](images/appreg4.png)
 
-
 Tenga en cuenta que Azure no le mostrará el secreto después, por lo que debe copiarlo ahora en un lugar seguro o crear uno nuevo si lo perdió.
 
 ![](images/appreg5.png)
