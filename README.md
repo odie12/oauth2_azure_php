@@ -1,4 +1,7 @@
 # Ejemplo simple de autenticación en Azure AD Oauth2 PHP
+[![Latest Version](https://img.shields.io/github/release/thenetworg/oauth2-azure.svg?style=flat-square)](https://github.com/thenetworg/oauth2-azure/releases)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](License.md)
+
 
 Este es un ejemplo de autenticación Azure AD Oauth2 usando php, este ejemplo lo encontre buscando en internet formas de lograr la autenticación con azure ad. Este documento es una adaptación al español de la siguiente página [https://www.sipponen.com/archives/4024](https://www.sipponen.com/archives/4024)  
 
