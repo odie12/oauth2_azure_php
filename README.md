@@ -1,5 +1,4 @@
 # Ejemplo simple de autenticación en Azure AD Oauth2 PHP
-[![Latest Version](https://img.shields.io/github/release/oauth2_azure_php/releases.svg?style=flat-square)](https://github.com/odie12/oauth2_azure_php/releases)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](License.md)
 
 
